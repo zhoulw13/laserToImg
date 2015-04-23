@@ -8,7 +8,9 @@ plot the 3D data from laserscan into camera's 2D image real time, and can split 
 ## Usage
 ### 1. data collect
 `rosrun laserToImg laserToImg_node`
-* press 's' to start collect, before that you can ajust the laserscan and camera* press space bar to exit
+* press 's' to start collect, before that you can ajust the laserscan and camera
+
+* press space bar to exit
 
 ### 2. split
 `rosrun laserToImg split_node`
