@@ -100,7 +100,6 @@ include_directories(
 
 ## Declare a cpp executable
  add_executable(laserToImg_node src/laserToImg.cpp)
- add_executable(camera_node src/camera.cpp)
  add_executable(split_node src/split.cpp)
 
 ## Add cmake target dependencies of the executable/library
@@ -109,11 +108,6 @@ include_directories(
 
 ## Specify libraries to link a library or executable target against
  target_link_libraries(laserToImg_node
-   ${catkin_LIBRARIES}
-${OpenCV_LIBRARIES}
- )
-
- target_link_libraries(camera_node
    ${catkin_LIBRARIES}
 ${OpenCV_LIBRARIES}
  )
